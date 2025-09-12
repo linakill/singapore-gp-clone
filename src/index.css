@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Formula 1 Singapore GP inspired design system - Racing theme with premium motorsport aesthetics */
+
+@layer base {
+  :root {
+    /* F1 Racing Color Palette */
+    --background: 230 15% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 230 15% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 230 15% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    /* F1 Red - Primary racing color */
+    --primary: 0 85% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 0 85% 70%;
+
+    /* Racing Dark Blue/Navy */
+    --secondary: 225 20% 15%;
+    --secondary-foreground: 0 0% 90%;
+
+    /* Muted racing colors */
+    --muted: 225 15% 18%;
+    --muted-foreground: 0 0% 65%;
+
+    /* Accent - bright racing blue */
+    --accent: 210 100% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 225 15% 20%;
+    --input: 225 15% 18%;
+    --ring: 0 85% 60%;
+
+    --radius: 0.75rem;
+
+    /* Racing-inspired gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(225 30% 12%) 50%, hsl(270 35% 15%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(225 18% 12%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(210 100% 70%) 100%);
+
+    /* Racing shadows and effects */
+    --shadow-glow: 0 0 30px hsl(var(--primary) / 0.3);
+    --shadow-card: 0 10px 30px -5px hsl(0 0% 0% / 0.3);
+    --shadow-header: 0 4px 20px hsl(0 0% 0% / 0.4);
+
+    /* Animation timing */
+    --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-micro: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Product shadows */
+    --shadow-product: 0 4px 12px -2px hsl(var(--foreground) / 0.08);
+    --shadow-product-hover: 0 8px 24px -4px hsl(var(--foreground) / 0.12);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Enhanced dark mode for racing theme */
+    --background: 225 25% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 225 20% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 225 20% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 0 90% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 225 25% 12%;
+    --secondary-foreground: 0 0% 88%;
+
+    --muted: 225 20% 15%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 210 100% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 225 20% 18%;
+    --input: 225 20% 15%;
+    --ring: 0 90% 65%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
