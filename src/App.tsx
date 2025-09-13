@@ -24,7 +24,7 @@ import DriversRightLounge from "./pages/hospitality/DriversRightLounge";
 import LoungeTurn3 from "./pages/hospitality/LoungeTurn3";
 import VistaSuite from "./pages/hospitality/VistaSuite";
 import SkyViewPavilion from "./pages/hospitality/SkyViewPavilion";
-import SkyLounge from "./pages/SkyLounge";
+import Sustainability from "./pages/Sustainability";
 import NotFound from "./pages/NotFound";
 import F1Guide2025 from "./pages/news/F1Guide2025";
 import TrackImprovements from "./pages/news/TrackImprovements";
@@ -68,7 +68,7 @@ const App = () => (
             <Route path="/news/season-preview" element={<SeasonPreview />} />
             <Route path="/news/entertainment" element={<Entertainment />} />
             <Route path="/news/circuit-history" element={<CircuitHistory />} />
-            <Route path="/sky-lounge" element={<SkyLounge />} />
+            <Route path="/sustainability" element={<Sustainability />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

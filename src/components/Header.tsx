@@ -27,8 +27,8 @@ export const Header = () => {
             <a href="/hospitality" className="font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:drop-shadow-glow">
               HOSPITALITY
             </a>
-            <a href="/sky-lounge" className="font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:drop-shadow-glow">
-              SKY LOUNGE
+            <a href="/sustainability" className="font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:drop-shadow-glow">
+              SUSTAINABILITY
             </a>
             <a href="/shop" className="font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:drop-shadow-glow">
               SHOP
@@ -77,8 +77,8 @@ export const Header = () => {
               <a href="/hospitality" className="block px-4 py-2 font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300">
                 HOSPITALITY
               </a>
-              <a href="/sky-lounge" className="block px-4 py-2 font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300">
-                SKY LOUNGE
+              <a href="/sustainability" className="block px-4 py-2 font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300">
+                SUSTAINABILITY
               </a>
               <a href="/shop" className="block px-4 py-2 font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300">
                 SHOP
