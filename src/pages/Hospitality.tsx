@@ -10,42 +10,68 @@ const Hospitality = () => {
     {
       name: "Formula 1 Paddock Club",
       status: "SOLD OUT",
-      image: "/lovable-uploads/12aeba39-19b4-48ec-bd13-478d756e96de.png"
+      image: "/lovable-uploads/12aeba39-19b4-48ec-bd13-478d756e96de.png",
+      url: "/hospitality/formula-one-paddock-club"
     },
     {
-      name: "The Clubhouse",
+      name: "The Clubhouse at Formula 1 Paddock Club",
       status: "SOLD OUT", 
-      image: "/lovable-uploads/42b3bc47-0550-4e5f-9cc4-f6139d85bb70.png"
+      image: "/lovable-uploads/42b3bc47-0550-4e5f-9cc4-f6139d85bb70.png",
+      url: "/hospitality/the-clubhouse-at-formula-1-paddock-club"
     },
     {
       name: "Sky Suite",
       status: "SOLD OUT",
-      image: "/lovable-uploads/4aee7ba0-866f-45e6-bcaa-9a7b190bc100.png"
+      image: "/lovable-uploads/4aee7ba0-866f-45e6-bcaa-9a7b190bc100.png",
+      url: "/hospitality/sky-suite"
     },
     {
       name: "Observat3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/74bda01e-2d89-49cf-acfe-28fa48062f55.png"
+      image: "/lovable-uploads/74bda01e-2d89-49cf-acfe-28fa48062f55.png",
+      url: "/hospitality/observat3"
     },
     {
       name: "Twenty3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/7903dc52-ed80-418e-8ff5-3ffac7ce5d07.png"
+      image: "/lovable-uploads/7903dc52-ed80-418e-8ff5-3ffac7ce5d07.png",
+      url: "/hospitality/twenty3"
     },
     {
       name: "The Green Room",
       status: "SOLD OUT",
-      image: "/lovable-uploads/bc469316-37c9-450a-8836-9525f3397335.png"
+      image: "/lovable-uploads/bc469316-37c9-450a-8836-9525f3397335.png",
+      url: "/hospitality/the-green-room"
     },
     {
       name: "Drivers Right Lounge",
       status: "SOLD OUT",
-      image: "/lovable-uploads/dbbd89c1-a104-4456-a891-5a6f1d65fc69.png"
+      image: "/lovable-uploads/dbbd89c1-a104-4456-a891-5a6f1d65fc69.png",
+      url: "/hospitality/drivers-right-lounge"
+    },
+    {
+      name: "Lounge at Turn 3",
+      status: "SOLD OUT",
+      image: "/lovable-uploads/ea9ede23-943e-4447-a746-22ca097cfc7d.png",
+      url: "/hospitality/lounge-at-turn-3"
     },
     {
       name: "The Vista Suite",
       status: "SOLD OUT",
-      image: "/lovable-uploads/ea9ede23-943e-4447-a746-22ca097cfc7d.png"
+      image: "/lovable-uploads/ea9ede23-943e-4447-a746-22ca097cfc7d.png",
+      url: "/hospitality/the-vista-suite"
+    },
+    {
+      name: "Sky View Pavilion",
+      status: "SOLD OUT",
+      image: "/lovable-uploads/12aeba39-19b4-48ec-bd13-478d756e96de.png",
+      url: "/hospitality/sky-view-pavilion"
+    },
+    {
+      name: "The Torque Lounge",
+      status: "SOLD OUT",
+      image: "/lovable-uploads/42b3bc47-0550-4e5f-9cc4-f6139d85bb70.png",
+      url: "/hospitality/the-torque-lounge"
     }
   ];
 
@@ -103,7 +129,7 @@ const Hospitality = () => {
               </p>
               
               <p>
-                For a quintessential race experience, take your pick from five specially-designed hospitality facilities ideal for networking with key decision-makers, creating new business opportunities and rewarding associates.
+                For a quintessential race experience, take your pick from specially-designed hospitality facilities ideal for networking with key decision-makers, creating new business opportunities and rewarding associates.
               </p>
               
               <p>
@@ -115,6 +141,10 @@ const Hospitality = () => {
               </p>
             </div>
             
+            <p className="mt-8 text-sm text-muted-foreground italic">
+              We reserve the right to make modifications to the programme, facilities, services, and activities on offer if required to do so. All images and videos are based on the Formula 1 Singapore Airlines Singapore Grand Prix 2024 event and are for illustrative purposes only. Actual products, services, and experiences for the 2025 event may vary.
+            </p>
+            
             <div className="mt-12">
               <Button className="bg-gradient-primary hover:shadow-glow transition-all duration-300 font-semibold text-lg px-8 py-3">
                 BUY NOW
@@ -122,7 +152,7 @@ const Hospitality = () => {
             </div>
             
             <p className="mt-8 text-sm text-muted-foreground">
-              For further information on hospitality packages, please contact the hospitality sales team or call us at +65 6731 5900.
+              For further information on hospitality packages, please contact the hospitality sales team <a href="/contact-us/hospitality" className="text-primary hover:underline">here</a> or <a href="tel:+6567315900" className="text-primary hover:underline">call</a> us at +65 6731 5900.
             </p>
           </div>
         </section>
@@ -135,30 +165,32 @@ const Hospitality = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {packages.map((pkg, index) => (
-              <Card key={index} className="group hover:shadow-glow transition-all duration-300 overflow-hidden bg-card border-border">
-                <CardContent className="p-0">
-                  <div className="relative">
-                    <img 
-                      src={pkg.image} 
-                      alt={pkg.name}
-                      className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                    
-                    <div className="absolute top-4 right-4">
-                      <span className="bg-destructive text-destructive-foreground px-3 py-1 rounded text-sm font-semibold">
-                        {pkg.status}
-                      </span>
+              <a key={index} href={pkg.url} className="block">
+                <Card className="group hover:shadow-glow transition-all duration-300 overflow-hidden bg-card border-border cursor-pointer">
+                  <CardContent className="p-0">
+                    <div className="relative">
+                      <img 
+                        src={pkg.image} 
+                        alt={pkg.name}
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                      
+                      <div className="absolute top-4 right-4">
+                        <span className="bg-destructive text-destructive-foreground px-3 py-1 rounded text-sm font-semibold">
+                          {pkg.status}
+                        </span>
+                      </div>
+                      
+                      <div className="absolute bottom-4 left-4 right-4">
+                        <h3 className="text-white font-orbitron font-bold text-lg leading-tight">
+                          {pkg.name}
+                        </h3>
+                      </div>
                     </div>
-                    
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <h3 className="text-white font-orbitron font-bold text-lg leading-tight">
-                        {pkg.name}
-                      </h3>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+              </a>
             ))}
           </div>
         </section>
