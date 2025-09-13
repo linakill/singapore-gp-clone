@@ -17,7 +17,7 @@ const SkySuite = () => {
       price: 6500,
       image: "/lovable-uploads/sky-suite-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

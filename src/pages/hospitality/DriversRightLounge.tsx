@@ -17,7 +17,7 @@ const DriversRightLounge = () => {
       price: 3200,
       image: "/lovable-uploads/drivers-right-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

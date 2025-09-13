@@ -17,7 +17,7 @@ const PaddockClub = () => {
       price: 8500,
       image: "/lovable-uploads/paddock-club-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

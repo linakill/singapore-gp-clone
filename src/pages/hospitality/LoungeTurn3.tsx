@@ -17,7 +17,7 @@ const LoungeTurn3 = () => {
       price: 2800,
       image: "/lovable-uploads/lounge-turn3-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

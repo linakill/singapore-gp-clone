@@ -17,7 +17,7 @@ const Clubhouse = () => {
       price: 7500,
       image: "/lovable-uploads/clubhouse-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

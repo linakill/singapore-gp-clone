@@ -17,7 +17,7 @@ const GreenRoom = () => {
       price: 3500,
       image: "/lovable-uploads/green-room-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

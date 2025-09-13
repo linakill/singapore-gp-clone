@@ -17,7 +17,7 @@ const Observat3 = () => {
       price: 5500,
       image: "/lovable-uploads/observat3-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

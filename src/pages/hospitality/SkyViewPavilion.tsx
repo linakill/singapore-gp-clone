@@ -17,7 +17,7 @@ const SkyViewPavilion = () => {
       price: 3800,
       image: "/lovable-uploads/sky-view-pavilion-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

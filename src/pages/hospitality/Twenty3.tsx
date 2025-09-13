@@ -17,7 +17,7 @@ const Twenty3 = () => {
       price: 4500,
       image: "/lovable-uploads/twenty3-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

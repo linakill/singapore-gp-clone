@@ -17,7 +17,7 @@ const VistaSuite = () => {
       price: 4200,
       image: "/lovable-uploads/vista-suite-new.png",
       category: "hospitality",
-      type: "table",
+      type: "table" as const,
       quantity: 1
     };
     addToCart(item);

@@ -104,7 +104,7 @@ const Hospitality = () => {
             <a href="mailto:hospitality@singaporegp.sg" className="text-white hover:text-primary transition-colors">
               <Mail className="h-8 w-8" />
             </a>
-            <a href="https://hospitality.singaporegp.sg/" className="text-white hover:text-primary transition-colors">
+            <a href="/" className="text-white hover:text-primary transition-colors">
               <Globe className="h-8 w-8" />
             </a>
           </div>
