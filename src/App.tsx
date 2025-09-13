@@ -12,6 +12,7 @@ import ProductPage from "./pages/ProductPage";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
+import Hospitality from "./pages/Hospitality";
 import NotFound from "./pages/NotFound";
 import F1Guide2025 from "./pages/news/F1Guide2025";
 import TrackImprovements from "./pages/news/TrackImprovements";
@@ -32,6 +33,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/tickets" element={<Tickets />} />
+            <Route path="/hospitality" element={<Hospitality />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/product/:productId" element={<ProductPage />} />
             <Route path="/privacy" element={<Privacy />} />

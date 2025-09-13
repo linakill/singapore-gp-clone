@@ -24,6 +24,9 @@ export const Header = () => {
             <a href="/tickets" className="font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:drop-shadow-glow">
               TICKETS
             </a>
+            <a href="/hospitality" className="font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:drop-shadow-glow">
+              HOSPITALITY
+            </a>
             <a href="/shop" className="font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:drop-shadow-glow">
               SHOP
             </a>
@@ -67,6 +70,9 @@ export const Header = () => {
             <nav className="py-4 space-y-4">
               <a href="/tickets" className="block px-4 py-2 font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300">
                 TICKETS
+              </a>
+              <a href="/hospitality" className="block px-4 py-2 font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300">
+                HOSPITALITY
               </a>
               <a href="/shop" className="block px-4 py-2 font-orbitron font-semibold text-lg tracking-wide text-foreground hover:text-primary transition-all duration-300">
                 SHOP
