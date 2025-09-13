@@ -10,61 +10,61 @@ const Hospitality = () => {
     {
       name: "Formula 1 Paddock Club",
       status: "SOLD OUT",
-      image: "/lovable-uploads/paddock-club.png",
+      image: "/lovable-uploads/paddock-club-new.png",
       url: "/hospitality/formula-one-paddock-club"
     },
     {
       name: "The Clubhouse at Formula 1 Paddock Club",
       status: "SOLD OUT", 
-      image: "/lovable-uploads/clubhouse.png",
+      image: "/lovable-uploads/clubhouse-new.png",
       url: "/hospitality/the-clubhouse-at-formula-1-paddock-club"
     },
     {
       name: "Sky Suite",
       status: "SOLD OUT",
-      image: "/lovable-uploads/sky-suite.png",
+      image: "/lovable-uploads/sky-suite-new.png",
       url: "/hospitality/sky-suite"
     },
     {
       name: "Observat3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/observat3.png",
+      image: "/lovable-uploads/observat3-new.png",
       url: "/hospitality/observat3"
     },
     {
       name: "Twenty3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/twenty3.png",
+      image: "/lovable-uploads/twenty3-new.png",
       url: "/hospitality/twenty3"
     },
     {
       name: "The Green Room",
       status: "SOLD OUT",
-      image: "/lovable-uploads/green-room.png",
+      image: "/lovable-uploads/green-room-new.png",
       url: "/hospitality/the-green-room"
     },
     {
       name: "Drivers Right Lounge",
       status: "SOLD OUT",
-      image: "/lovable-uploads/drivers-right.png",
+      image: "/lovable-uploads/drivers-right-new.png",
       url: "/hospitality/drivers-right-lounge"
     },
     {
       name: "Lounge at Turn 3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/lounge-turn3.png",
+      image: "/lovable-uploads/lounge-turn3-new.png",
       url: "/hospitality/lounge-at-turn-3"
     },
     {
       name: "The Vista Suite",
       status: "SOLD OUT",
-      image: "/lovable-uploads/vista-suite.png",
+      image: "/lovable-uploads/vista-suite-new.png",
       url: "/hospitality/the-vista-suite"
     },
     {
       name: "Sky View Pavilion",
       status: "SOLD OUT",
-      image: "/lovable-uploads/sky-view-pavilion.png",
+      image: "/lovable-uploads/sky-view-pavilion-new.png",
       url: "/hospitality/sky-view-pavilion"
     }
   ];
