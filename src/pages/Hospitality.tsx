@@ -10,68 +10,62 @@ const Hospitality = () => {
     {
       name: "Formula 1 Paddock Club",
       status: "SOLD OUT",
-      image: "/lovable-uploads/12aeba39-19b4-48ec-bd13-478d756e96de.png",
+      image: "/lovable-uploads/paddock-club.png",
       url: "/hospitality/formula-one-paddock-club"
     },
     {
       name: "The Clubhouse at Formula 1 Paddock Club",
       status: "SOLD OUT", 
-      image: "/lovable-uploads/42b3bc47-0550-4e5f-9cc4-f6139d85bb70.png",
+      image: "/lovable-uploads/clubhouse.png",
       url: "/hospitality/the-clubhouse-at-formula-1-paddock-club"
     },
     {
       name: "Sky Suite",
       status: "SOLD OUT",
-      image: "/lovable-uploads/4aee7ba0-866f-45e6-bcaa-9a7b190bc100.png",
+      image: "/lovable-uploads/sky-suite.png",
       url: "/hospitality/sky-suite"
     },
     {
       name: "Observat3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/74bda01e-2d89-49cf-acfe-28fa48062f55.png",
+      image: "/lovable-uploads/observat3.png",
       url: "/hospitality/observat3"
     },
     {
       name: "Twenty3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/7903dc52-ed80-418e-8ff5-3ffac7ce5d07.png",
+      image: "/lovable-uploads/twenty3.png",
       url: "/hospitality/twenty3"
     },
     {
       name: "The Green Room",
       status: "SOLD OUT",
-      image: "/lovable-uploads/bc469316-37c9-450a-8836-9525f3397335.png",
+      image: "/lovable-uploads/green-room.png",
       url: "/hospitality/the-green-room"
     },
     {
       name: "Drivers Right Lounge",
       status: "SOLD OUT",
-      image: "/lovable-uploads/dbbd89c1-a104-4456-a891-5a6f1d65fc69.png",
+      image: "/lovable-uploads/drivers-right.png",
       url: "/hospitality/drivers-right-lounge"
     },
     {
       name: "Lounge at Turn 3",
       status: "SOLD OUT",
-      image: "/lovable-uploads/ea9ede23-943e-4447-a746-22ca097cfc7d.png",
+      image: "/lovable-uploads/lounge-turn3.png",
       url: "/hospitality/lounge-at-turn-3"
     },
     {
       name: "The Vista Suite",
       status: "SOLD OUT",
-      image: "/lovable-uploads/ea9ede23-943e-4447-a746-22ca097cfc7d.png",
+      image: "/lovable-uploads/vista-suite.png",
       url: "/hospitality/the-vista-suite"
     },
     {
       name: "Sky View Pavilion",
       status: "SOLD OUT",
-      image: "/lovable-uploads/12aeba39-19b4-48ec-bd13-478d756e96de.png",
+      image: "/lovable-uploads/sky-view-pavilion.png",
       url: "/hospitality/sky-view-pavilion"
-    },
-    {
-      name: "The Torque Lounge",
-      status: "SOLD OUT",
-      image: "/lovable-uploads/42b3bc47-0550-4e5f-9cc4-f6139d85bb70.png",
-      url: "/hospitality/the-torque-lounge"
     }
   ];
 
