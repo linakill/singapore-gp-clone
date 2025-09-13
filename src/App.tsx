@@ -13,6 +13,17 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
 import Hospitality from "./pages/Hospitality";
+// Hospitality pages
+import PaddockClub from "./pages/hospitality/PaddockClub";
+import Clubhouse from "./pages/hospitality/Clubhouse";
+import SkySuite from "./pages/hospitality/SkySuite";
+import Observat3 from "./pages/hospitality/Observat3";
+import Twenty3 from "./pages/hospitality/Twenty3";
+import GreenRoom from "./pages/hospitality/GreenRoom";
+import DriversRightLounge from "./pages/hospitality/DriversRightLounge";
+import LoungeTurn3 from "./pages/hospitality/LoungeTurn3";
+import VistaSuite from "./pages/hospitality/VistaSuite";
+import SkyViewPavilion from "./pages/hospitality/SkyViewPavilion";
 import NotFound from "./pages/NotFound";
 import F1Guide2025 from "./pages/news/F1Guide2025";
 import TrackImprovements from "./pages/news/TrackImprovements";
@@ -34,6 +45,17 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/tickets" element={<Tickets />} />
             <Route path="/hospitality" element={<Hospitality />} />
+            {/* Hospitality routes */}
+            <Route path="/hospitality/formula-one-paddock-club" element={<PaddockClub />} />
+            <Route path="/hospitality/the-clubhouse-at-formula-1-paddock-club" element={<Clubhouse />} />
+            <Route path="/hospitality/sky-suite" element={<SkySuite />} />
+            <Route path="/hospitality/observat3" element={<Observat3 />} />
+            <Route path="/hospitality/twenty3" element={<Twenty3 />} />
+            <Route path="/hospitality/the-green-room" element={<GreenRoom />} />
+            <Route path="/hospitality/drivers-right-lounge" element={<DriversRightLounge />} />
+            <Route path="/hospitality/lounge-at-turn-3" element={<LoungeTurn3 />} />
+            <Route path="/hospitality/the-vista-suite" element={<VistaSuite />} />
+            <Route path="/hospitality/sky-view-pavilion" element={<SkyViewPavilion />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/product/:productId" element={<ProductPage />} />
             <Route path="/privacy" element={<Privacy />} />

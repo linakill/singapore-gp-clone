@@ -9,63 +9,73 @@ const Hospitality = () => {
   const packages = [
     {
       name: "Formula 1 Paddock Club",
-      status: "SOLD OUT",
       image: "/lovable-uploads/paddock-club-new.png",
-      url: "/hospitality/formula-one-paddock-club"
+      url: "/hospitality/formula-one-paddock-club",
+      price: 8500,
+      description: "The pinnacle of Formula 1 hospitality with exclusive access to the Paddock Club"
     },
     {
       name: "The Clubhouse at Formula 1 Paddock Club",
-      status: "SOLD OUT", 
       image: "/lovable-uploads/clubhouse-new.png",
-      url: "/hospitality/the-clubhouse-at-formula-1-paddock-club"
+      url: "/hospitality/the-clubhouse-at-formula-1-paddock-club",
+      price: 7500,
+      description: "Exclusive clubhouse experience with premium dining and circuit views"
     },
     {
       name: "Sky Suite",
-      status: "SOLD OUT",
       image: "/lovable-uploads/sky-suite-new.png",
-      url: "/hospitality/sky-suite"
+      url: "/hospitality/sky-suite",
+      price: 6500,
+      description: "Elevated viewing experience with panoramic circuit views"
     },
     {
       name: "Observat3",
-      status: "SOLD OUT",
       image: "/lovable-uploads/observat3-new.png",
-      url: "/hospitality/observat3"
+      url: "/hospitality/observat3",
+      price: 5500,
+      description: "Premium observation deck with excellent track visibility"
     },
     {
       name: "Twenty3",
-      status: "SOLD OUT",
       image: "/lovable-uploads/twenty3-new.png",
-      url: "/hospitality/twenty3"
+      url: "/hospitality/twenty3",
+      price: 4500,
+      description: "Stylish hospitality venue with modern amenities"
     },
     {
       name: "The Green Room",
-      status: "SOLD OUT",
       image: "/lovable-uploads/green-room-new.png",
-      url: "/hospitality/the-green-room"
+      url: "/hospitality/the-green-room",
+      price: 3500,
+      description: "Intimate setting with personalized service and great views"
     },
     {
       name: "Drivers Right Lounge",
-      status: "SOLD OUT",
       image: "/lovable-uploads/drivers-right-new.png",
-      url: "/hospitality/drivers-right-lounge"
+      url: "/hospitality/drivers-right-lounge",
+      price: 3200,
+      description: "Strategic location near the drivers' area with exclusive access"
     },
     {
       name: "Lounge at Turn 3",
-      status: "SOLD OUT",
       image: "/lovable-uploads/lounge-turn3-new.png",
-      url: "/hospitality/lounge-at-turn-3"
+      url: "/hospitality/lounge-at-turn-3",
+      price: 2800,
+      description: "Perfect views of Turn 3 action with comfortable lounge setting"
     },
     {
       name: "The Vista Suite",
-      status: "SOLD OUT",
       image: "/lovable-uploads/vista-suite-new.png",
-      url: "/hospitality/the-vista-suite"
+      url: "/hospitality/the-vista-suite",
+      price: 4200,
+      description: "Spectacular vista views with luxury amenities"
     },
     {
       name: "Sky View Pavilion",
-      status: "SOLD OUT",
       image: "/lovable-uploads/sky-view-pavilion-new.png",
-      url: "/hospitality/sky-view-pavilion"
+      url: "/hospitality/sky-view-pavilion",
+      price: 3800,
+      description: "Open-air pavilion with stunning skyline and circuit views"
     }
   ];
 
@@ -171,8 +181,8 @@ const Hospitality = () => {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                       
                       <div className="absolute top-4 right-4">
-                        <span className="bg-destructive text-destructive-foreground px-3 py-1 rounded text-sm font-semibold">
-                          {pkg.status}
+                        <span className="bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-semibold">
+                          From ${pkg.price.toLocaleString()}
                         </span>
                       </div>
                       
